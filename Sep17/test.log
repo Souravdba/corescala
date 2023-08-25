@@ -1,0 +1,58 @@
+20:01:27.237 [main] DEBUG flrd$ - hi
+20:01:33.461 [main] DEBUG flrd$ - hi
+20:04:52.298 [main] DEBUG Bank - Processing aplication request for Rama,abjjjdef
+20:04:52.300 [main] DEBUG Bank - Validating Age
+20:04:52.300 [main] DEBUG Bank - Validaton of Age passed
+20:04:52.300 [main] DEBUG Bank - Validation Policy
+20:04:52.300 [main] DEBUG Bank - Policy Validaton-I Last Application date 
+20:04:52.495 [main] DEBUG Bank - Last apllication date lest than 30 days
+20:04:52.495 [main] DEBUG Bank - Policy Validaton-I Last Application date failed 
+20:04:52.497 [main] DEBUG Bank - Final status  FAILED
+23:00:30.497 [main] DEBUG slick.basic.BasicBackend.action - #1: StreamingResultAction [select distinct title from books where id=2]
+23:02:46.797 [main] DEBUG slick.basic.BasicBackend.action - #1: StreamingResultAction [select distinct title from books where id=2]
+23:04:46.319 [main] DEBUG slick.basic.BasicBackend.action - #1: StreamingResultAction [select distinct title from books where id=2]
+23:04:46.432 [AsyncExecutor.default-1] DEBUG slick.jdbc.DriverDataSource - Driver com.mysql.jdbc.Driver not already registered; trying to load it
+23:07:10.958 [main] DEBUG slick.basic.BasicBackend.action - #1: StreamingResultAction [select distinct title from books where id=2]
+23:07:11.026 [AsyncExecutor.default-1] DEBUG slick.jdbc.DriverDataSource - Driver com.mysql.jdbc.Driver not already registered; trying to load it
+23:07:11.029 [AsyncExecutor.default-1] DEBUG slick.jdbc.DriverDataSource - Loaded driver com.mysql.jdbc.Driver but it did not register with DriverManager; trying to instantiate directly
+23:07:11.331 [AsyncExecutor.default-1] DEBUG slick.jdbc.JdbcBackend.statement - Preparing statement: select distinct title from books where id=2
+23:07:11.343 [AsyncExecutor.default-1] DEBUG slick.jdbc.JdbcBackend.benchmark - Execution of prepared statement took 1ms
+23:07:11.386 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - /-------\
+23:07:11.386 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - | 1     |
+23:07:11.386 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - | title |
+23:07:11.386 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - |-------|
+23:07:11.386 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - | ddd   |
+23:07:11.386 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - \-------/
+23:08:25.832 [main] DEBUG slick.basic.BasicBackend.action - #1: StreamingResultAction [select distinct title from books where id=2]
+23:08:25.897 [AsyncExecutor.default-1] DEBUG slick.jdbc.DriverDataSource - Driver com.mysql.jdbc.Driver not already registered; trying to load it
+23:08:25.900 [AsyncExecutor.default-1] DEBUG slick.jdbc.DriverDataSource - Loaded driver com.mysql.jdbc.Driver but it did not register with DriverManager; trying to instantiate directly
+23:08:26.086 [AsyncExecutor.default-1] DEBUG slick.jdbc.JdbcBackend.statement - Preparing statement: select distinct title from books where id=2
+23:08:26.097 [AsyncExecutor.default-1] DEBUG slick.jdbc.JdbcBackend.benchmark - Execution of prepared statement took 1ms
+23:08:26.142 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - /-------\
+23:08:26.142 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - | 1     |
+23:08:26.142 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - | title |
+23:08:26.142 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - |-------|
+23:08:26.142 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - | ddd   |
+23:08:26.142 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - \-------/
+23:11:50.354 [main] DEBUG slick.basic.BasicBackend.action - #1: StreamingResultAction [select distinct title from books where id=2]
+23:11:50.419 [AsyncExecutor.default-1] DEBUG slick.jdbc.DriverDataSource - Driver com.mysql.jdbc.Driver not already registered; trying to load it
+23:11:50.424 [AsyncExecutor.default-1] DEBUG slick.jdbc.DriverDataSource - Loaded driver com.mysql.jdbc.Driver but it did not register with DriverManager; trying to instantiate directly
+23:11:50.599 [AsyncExecutor.default-1] DEBUG slick.jdbc.JdbcBackend.statement - Preparing statement: select distinct title from books where id=2
+23:11:50.611 [AsyncExecutor.default-1] DEBUG slick.jdbc.JdbcBackend.benchmark - Execution of prepared statement took 2ms
+23:11:50.653 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - /-------\
+23:11:50.653 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - | 1     |
+23:11:50.653 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - | title |
+23:11:50.653 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - |-------|
+23:11:50.653 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - | ddd   |
+23:11:50.653 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - \-------/
+23:15:56.485 [main] DEBUG slick.basic.BasicBackend.action - #1: StreamingResultAction [select distinct title from books where id=2]
+23:15:56.553 [AsyncExecutor.default-1] DEBUG slick.jdbc.DriverDataSource - Driver com.mysql.jdbc.Driver not already registered; trying to load it
+23:15:56.555 [AsyncExecutor.default-1] DEBUG slick.jdbc.DriverDataSource - Loaded driver com.mysql.jdbc.Driver but it did not register with DriverManager; trying to instantiate directly
+23:15:56.731 [AsyncExecutor.default-1] DEBUG slick.jdbc.JdbcBackend.statement - Preparing statement: select distinct title from books where id=2
+23:15:56.743 [AsyncExecutor.default-1] DEBUG slick.jdbc.JdbcBackend.benchmark - Execution of prepared statement took 1ms
+23:15:56.785 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - /-------\
+23:15:56.785 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - | 1     |
+23:15:56.786 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - | title |
+23:15:56.786 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - |-------|
+23:15:56.786 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - | ddd   |
+23:15:56.786 [AsyncExecutor.default-1] DEBUG slick.jdbc.StatementInvoker.result - \-------/

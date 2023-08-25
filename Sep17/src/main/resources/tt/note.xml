@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestInfoList
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/EdgeCaseBerg/scala-xsd-validation/master/src/test/resources/sample.xsd"
+>
+    <TestInfo>
+        <Id>1</Id>
+        <Name>Name</Name>
+        <Days>
+            <Day>Monday</Day>
+        </Days>
+    </TestInfo>
+</TestInfoList>
